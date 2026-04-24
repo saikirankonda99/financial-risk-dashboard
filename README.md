@@ -14,8 +14,6 @@ Real-time portfolio risk monitoring dashboard aggregating trading and transactio
 
 ## Architecture
 
-## Architecture
-
 ![Architecture](docs/architecture.png)
 
 ## Tech Stack
