@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Data
+data/processed/
+data/raw/*.csv
+!data/raw/.gitkeep
+*.parquet
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Build
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+credentials.json
+*.pem
+*.key
