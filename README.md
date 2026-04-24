@@ -14,23 +14,9 @@ Real-time portfolio risk monitoring dashboard aggregating trading and transactio
 
 ## Architecture
 
-```
- 12 Trading /            AWS Lambda             Amazon S3          Amazon Redshift
- Transaction    ──────▶  Ingestors    ──────▶   Data Lake  ──────▶ (Analytics DW)
- Systems                                                                   │
-                                                                           ▼
-                                                                ┌──────────────────┐
-                                                                │  Airflow DAGs    │
-                                                                │  ETL + Monte     │
-                                                                │  Carlo + VaR     │
-                                                                └────────┬─────────┘
-                                                                         │
-                                                                         ▼
-                                                                ┌──────────────────┐
-                                                                │  Tableau / QuickSight
-                                                                │  Risk Dashboards │
-                                                                └──────────────────┘
-```
+## Architecture
+
+![Architecture](docs/architecture.png)
 
 ## Tech Stack
 
