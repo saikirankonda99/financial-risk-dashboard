@@ -1,3 +1,15 @@
+## 🚀 Live API (Dockerized)
+
+Run locally:
+
+```bash
+docker build -t financial-risk-api .
+docker run -p 8000:8000 financial-risk-api
+```
+
+API Docs:
+http://localhost:8000/docs
+
 # Financial Risk & Portfolio Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.11-yellow)](https://www.python.org/)
