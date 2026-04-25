@@ -7,8 +7,7 @@ docker build -t financial-risk-api .
 docker run -p 8000:8000 financial-risk-api
 ```
 
-API Docs:
-http://localhost:8000/docs
+[Open API Docs](http://localhost:8000/docs)
 
 # Financial Risk & Portfolio Dashboard
 
